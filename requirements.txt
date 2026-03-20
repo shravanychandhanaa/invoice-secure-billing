@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+python-jose
+passlib
+python-multipart
+reportlab
+bandit
+python-dotenv
