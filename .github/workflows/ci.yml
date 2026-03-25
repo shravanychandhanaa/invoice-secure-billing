@@ -44,3 +44,6 @@ jobs:
     - name: Push Docker Image
       run: |
         docker push ${{ secrets.DOCKER_USERNAME }}/invoice-app:latest
+    - name: Trigger Render Deploy
+      run: |
+        curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}
