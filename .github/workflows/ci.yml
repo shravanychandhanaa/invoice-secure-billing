@@ -43,5 +43,5 @@ jobs:
 
     - name: Push Docker Image
       run: |
-        docker tag invoice-app shravanychandhanaa/invoice-app
-        docker push shravanychandhaaa/invoice-app
+        docker tag invoice-app shravanychandhanaa/invoice-app:latest
+        docker push shravanychandhaaa/invoice-app:latest
