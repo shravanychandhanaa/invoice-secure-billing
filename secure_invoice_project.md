@@ -77,7 +77,3 @@ Application deployed on:\
 
 ------------------------------------------------------------------------
 
-## ✨ Author
-
-**Shravany Chandhanaa**\
-DevOps / Cloud Engineer
